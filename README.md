@@ -1,6 +1,7 @@
 # ProgAssignments
 programming assignments from the school (C++)
 
+
 Assignment 1.1
   Define a function void sockerkaka(int antal), that writes a list of ingredients needed to make a sockerkaka for the amount(antal) of people.
   The recepie can be found at http://www.recepten.se/recept/sockerkaka.html and is for 4 people.
@@ -12,7 +13,7 @@ Assignment 1.2
   becomes smaller after each payment. 
   The total cost 'k' of a loan (both 'amortering' and interest) can with 'rak armortering' be calculated with the following formula.
   
-  k = P + ((r  P  (a + 1))/2)
+  k = P + ((r * P * (a + 1))/2)
   
   Where 'P' is the amount that has been loaned, 'r' is the interest, 'a' the amount of years to pay it back.
   Write a function void kostnad(float P, float r, int a) that calculates and writes 'k' as the formula above.
@@ -27,11 +28,13 @@ Assignment 1.4
   In this assignment we will implement a simple dictionary with C++. 
   The dictionary will be interactive and the user shall be able to add and look up words in the dictionary.
   The dictionary will be implemented in two different ways, with two different ways to save the dictionary.
-  
+
+
    The first way is to have two vectors of strings. 
     The first vector shall have the words in it and the second shall have the descriptions of the words in it.
     Use the class std::string for the strings, and std::vector to save them.
-   The second way is to use the dictionary function. A function that keeps the word you want to look up as 'key' and the description as a
+
+ The second way is to use the dictionary function. A function that keeps the word you want to look up as 'key' and the description as a
     value. Use the class std::map for it.
     
    The dictionary shall present the user with a main menu where the following alternatives are choiceable: 
